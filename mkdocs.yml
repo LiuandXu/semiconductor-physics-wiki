@@ -1,0 +1,107 @@
+site_name: 半导体物理 Wiki
+site_url: https://liuandxu.github.io/semiconductor-physics-wiki/
+site_description: 半导体物理学（第8版）学习笔记 — 基于刘恩科教材和课程课件整理
+site_author: LiuandXu
+repo_name: LiuandXu/semiconductor-physics-wiki
+repo_url: https://github.com/LiuandXu/semiconductor-physics-wiki
+edit_uri: edit/main/docs/
+copyright: Copyright &copy; 2025 LiuandXu | CC BY-SA 4.0
+
+theme:
+  name: material
+  language: zh
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: light-blue
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  font:
+    text: Noto Sans SC
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.code.copy
+    - toc.follow
+    - toc.integrate
+
+extra_javascript:
+  - assets/js/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - assets/css/extra.css
+
+markdown_extensions:
+  # Math / LaTeX
+  - pymdownx.arithmatex:
+      generic: true
+  # Code & formatting
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  # Admonitions & callouts
+  - admonition
+  - pymdownx.details
+  # Tables & lists
+  - def_list
+  - footnotes
+  - attr_list
+  - md_in_html
+  # Typography
+  - pymdownx.smartsymbols
+  - pymdownx.magiclink
+  # Task lists
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  # Emoji
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # TOC
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+nav:
+  - 首页: index.md
+  - 第二章 电子状态: 02-电子状态.md
+  - 第三章 杂质和缺陷能级: 03-杂质和缺陷能级.md
+  - 第四章 平衡载流子: 04-平衡载流子.md
+  - 第五章 导电性: 05-导电性.md
+  - 第六章 非平衡载流子: 06-非平衡载流子.md
+  - 第七章 pn结: 07-pn结与金属半导体接触.md
+  - 第八章 金半接触: 08-金半接触.md
+  - 第九章 表面与MIS: 09-半导体表面与MIS结构.md
+  - 第十章 MOSFET: 10-MOSFET.md
+  - 第十一章 异质结: 11-异质结.md

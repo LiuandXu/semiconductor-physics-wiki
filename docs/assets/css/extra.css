@@ -1,0 +1,67 @@
+/* ===== 半导体物理 Wiki 自定义样式 ===== */
+
+/* 首页标题区域 */
+.md-typeset h1 {
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+}
+
+/* 公式块居中并加边距 */
+.md-typeset div.arithmatex {
+  overflow-x: auto;
+  padding: 0.5em 0;
+}
+
+/* 表格样式优化 */
+.md-typeset table:not([class]) {
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color);
+  color: white;
+  font-weight: 600;
+}
+
+/* 代码块圆角 */
+.md-typeset pre > code {
+  border-radius: 6px;
+}
+
+/*  admonition 圆角 */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 6px;
+}
+
+/* 侧边栏目录间距 */
+.md-nav__item {
+  padding-left: 0.2em;
+}
+
+/* 响应式优化 */
+@media screen and (max-width: 76.25em) {
+  .md-nav--primary .md-nav__title {
+    background-color: var(--md-primary-fg-color);
+  }
+}
+
+/* 知识脉络图样式 */
+.md-typeset pre code.language-text {
+  font-size: 0.85em;
+  line-height: 1.6;
+  color: var(--md-code-fg-color);
+}
+
+/* 小结段落样式 */
+.md-typeset h3:has(+ p:contains("小结")) {
+  margin-top: 2em;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding-bottom: 0.3em;
+}
+
+/* 页脚样式 */
+.md-footer {
+  margin-top: 2em;
+}

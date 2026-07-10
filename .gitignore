@@ -13,3 +13,11 @@ desktop.ini
 # Temp
 *.tmp
 *.bak
+
+# MkDocs build output
+site/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
