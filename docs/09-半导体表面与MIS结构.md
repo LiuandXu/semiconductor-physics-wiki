@@ -431,34 +431,27 @@ $$\sigma_s(V_s) = \sigma_s(0) + q(\mu_{ns}\Delta n_s + \mu_{ps}\Delta p_s)$$
 
 ### 知识脉络
 
-```
-表面态（悬挂键）
-    │
-    ├── 施主表面态 / 受主表面态
-    │
-    └── 钉扎效应 → 屏蔽金属功函数的影响
-         │
-         ▼
-    MIS结构模型
-         │
-         ├── 三种情况：堆积、耗尽、反型
-         │
-         ├── 定量分析：泊松方程 → F函数 → Qs(Vs)
-         │
-         └── C-V特性
-              │
-              ├── 理想C-V：C = C₀∥Cs（串联）
-              ├── 低频 vs 高频
-              ├── 功函数差 → C-V平移
-              └── 绝缘层电荷 → C-V平移
-                   │
-                   ▼
-              实际Si-SiO₂系统
-                   │
-                   ├── 四种电荷：Qm, Qf, Qit, Qot
-                   ├── 平带电压：VFB = Vms - Qi/C₀
-                   ├── 表面迁移率 ≈ μb/2
-                   └── MOSFET开启电压
+```mermaid
+flowchart TD
+    A["表面态(悬挂键)"] --> A1["施主表面态/受主表面态"]
+    A --> A2["钉扎效应：屏蔽金属功函数的影响"]
+    A2 --> B["MIS结构模型"]
+    B --> B1["三种情况：堆积、耗尽、反型"]
+    B --> B2["定量分析：泊松方程到F函数到Qs(Vs)"]
+    B --> B3["C-V特性"]
+    B3 --> C1["理想C-V：C0与Cs串联"]
+    B3 --> C2["低频 vs 高频"]
+    B3 --> C3["功函数差导致C-V平移"]
+    B3 --> C4["绝缘层电荷导致C-V平移"]
+    C4 --> D["实际Si-SiO2系统"]
+    D --> D1["四种电荷：Qm, Qf, Qit, Qot"]
+    D --> D2["平带电压 VFB"]
+    D --> D3["表面迁移率"]
+    D --> D4["MOSFET开启电压"]
+    style A fill:#1a73e8,color:#fff,stroke:none
+    style B fill:#4285f4,color:#fff,stroke:none
+    style B3 fill:#34a853,color:#fff,stroke:none
+    style D fill:#ea8600,color:#fff,stroke:none
 ```
 
 ### 核心公式速查
