@@ -100,6 +100,7 @@ plugins:
 
 nav:
   - 首页: index.md
+  - 📝 考试复习: exam-review.md
   - 第二章 电子状态:
     - 2.1 晶体结构: 02-电子状态/index.md
     - 2.2 电子状态与能带论: 02-电子状态/2-2.md
