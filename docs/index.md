@@ -62,7 +62,7 @@
 ## 知识脉络
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["晶体结构"] --> B["电子状态与能带论"]
     B --> C["杂质与缺陷"]
 
