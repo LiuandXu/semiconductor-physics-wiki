@@ -65,7 +65,7 @@
 }
 
 /* 隐藏侧边栏中页面级 H3 标题，仅保留小节级导航 */
-.md-nav--primary .md-nav__item--active > .md-nav > .md-nav__list {
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__list > .md-nav__item--active > .md-nav > .md-nav__list {
   display: none;
 }
 
