@@ -15,21 +15,17 @@
 
 ```mermaid
 flowchart TD
-    A["🔬 晶体结构"] --> B["电子状态 / 能带论"]
+    A["晶体结构"] --> B["电子状态与能带论"]
     B --> C["杂质与缺陷"]
 
-    C --> D
-    C --> E
+    C --> D["有效质量"]
+    C --> E["载流子浓度"]
 
-    subgraph S1["微观基础 → 输运性质"]
-        D["有效质量"] --> F["导电性<br/>（漂移运动 · 散射机制）"]
-        F --> G["迁移率 · 电导率"]
-    end
+    D --> F["导电性：漂移与散射"]
+    F --> G["迁移率与电导率"]
 
-    subgraph S2["载流子统计 → 器件应用"]
-        E["载流子浓度<br/>（平衡 / 非平衡）"] --> H["pn结 · 金半接触 · MIS"]
-        H --> I["MOSFET · 异质结 · 超晶格"]
-    end
+    E --> H["pn结与金半接触与MIS"]
+    H --> I["MOSFET与异质结与超晶格"]
 
     style A fill:#1a73e8,color:#fff,stroke:none
     style B fill:#4285f4,color:#fff,stroke:none
