@@ -13,14 +13,33 @@
 
 半导体物理学的核心线索是：**从微观电子行为出发，理解宏观电学性质，最终指导半导体器件设计**。
 
-```
-晶体结构 → 电子状态/能带论 → 杂质与缺陷
-     ↓                              ↓
-  有效质量              载流子浓度（平衡/非平衡）
-     ↓                              ↓
-  导电性（漂移、散射）      pn结 · 金半接触 · MIS
-     ↓                              ↓
-  迁移率、电导率              MOSFET · 异质结 · 超晶格
+```mermaid
+flowchart TD
+    A["🔬 晶体结构"] --> B["电子状态 / 能带论"]
+    B --> C["杂质与缺陷"]
+
+    C --> D
+    C --> E
+
+    subgraph 微观基础 → 输运性质
+        D["有效质量"] --> F["导电性\n（漂移运动 · 散射机制）"]
+        F --> G["迁移率 · 电导率"]
+    end
+
+    subgraph 载流子统计 → 器件应用
+        E["载流子浓度\n（平衡 / 非平衡）"] --> H["pn结 · 金半接触 · MIS"]
+        H --> I["MOSFET · 异质结 · 超晶格"]
+    end
+
+    style A fill:#1a73e8,color:#fff,stroke:none
+    style B fill:#4285f4,color:#fff,stroke:none
+    style C fill:#7baaf7,color:#fff,stroke:none
+    style D fill:#34a853,color:#fff,stroke:none
+    style F fill:#34a853,color:#fff,stroke:none
+    style G fill:#34a853,color:#fff,stroke:none
+    style E fill:#ea8600,color:#fff,stroke:none
+    style H fill:#ea8600,color:#fff,stroke:none
+    style I fill:#ea8600,color:#fff,stroke:none
 ```
 
 ## 目录
