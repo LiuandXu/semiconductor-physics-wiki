@@ -1,5 +1,29 @@
 /* ===== 半导体物理 Wiki 自定义样式 ===== */
 
+/* 词云样式 */
+.sp-wordcloud {
+  padding: 1.5em 0.5em;
+  line-height: 2.8;
+  text-align: center;
+  user-select: none;
+}
+.sp-wordcloud span {
+  display: inline-block;
+  margin: 0.15em 0.4em;
+  color: var(--md-default-fg-color--light);
+  transition: color 0.2s;
+  cursor: default;
+}
+.sp-wordcloud span:hover {
+  color: var(--md-primary-fg-color);
+}
+.sp-xxxl { font-size: 2.8em; font-weight: 800; }
+.sp-xxl  { font-size: 2.0em; font-weight: 700; }
+.sp-xl   { font-size: 1.5em; font-weight: 600; }
+.sp-l    { font-size: 1.25em; font-weight: 600; }
+.sp-m    { font-size: 1.05em; }
+.sp-s    { font-size: 0.88em; }
+
 /* 首页标题区域 */
 .md-typeset h1 {
   font-weight: 700;
