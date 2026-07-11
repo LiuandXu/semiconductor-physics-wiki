@@ -64,6 +64,11 @@
   padding-left: 0.2em;
 }
 
+/* 隐藏侧边栏中页面级 H3 标题，仅保留小节级导航 */
+.md-nav--primary .md-nav__item--active > .md-nav > .md-nav__list {
+  display: none;
+}
+
 /* 响应式优化 */
 @media screen and (max-width: 76.25em) {
   .md-nav--primary .md-nav__title {
