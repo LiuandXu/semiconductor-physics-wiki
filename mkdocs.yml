@@ -33,6 +33,7 @@ theme:
     code: JetBrains Mono
   features:
     - navigation.tabs
+    - navigation.sections
     - navigation.top
     - navigation.footer
     - navigation.instant
