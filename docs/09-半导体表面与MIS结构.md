@@ -432,7 +432,7 @@ $$\sigma_s(V_s) = \sigma_s(0) + q(\mu_{ns}\Delta n_s + \mu_{ps}\Delta p_s)$$
 ### 知识脉络
 
 ```mermaid
-flowchart TD
+flowchart LR
     A["表面态(悬挂键)"] --> A1["施主表面态/受主表面态"]
     A --> A2["钉扎效应：屏蔽金属功函数的影响"]
     A2 --> B["MIS结构模型"]
