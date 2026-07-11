@@ -105,6 +105,23 @@ flowchart TD
 
 建议配合教材和课件一起学习。支持全文搜索，公式由 MathJax 渲染。每章末尾有知识脉络总结与核心公式速查表。点击右上角编辑图标可跳转到 GitHub 仓库贡献内容。
 
+## 共建仓库
+
+本 Wiki 完全开源，欢迎每一位半导体物理学习者和研究者共同完善！
+
+[:fontawesome-brands-github: GitHub 仓库](https://github.com/LiuandXu/semiconductor-physics-wiki){ .md-button .md-button--primary }
+
+**参与方式：**
+
+1. :octicons-git-branch-16: **Fork** 仓库到你的账号
+2. :octicons-pencil-16: 编辑或新增 `docs/` 目录下的 Markdown 文件
+3. :octicons-git-pull-request-16: 提交 **Pull Request**，审核通过后即可合并
+4. :octicons-comment-discussion-16: 每页底部设有评论区，欢迎讨论交流
+
+编辑器推荐 [VS Code](https://code.visualstudio.com/) + [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) 插件。
+
+---
+
 ## 致谢
 
 本 Wiki 的样式参考了 [OI Wiki](https://oi-wiki.org/)，基于 [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) 主题构建。

@@ -9,6 +9,7 @@ copyright: Copyright &copy; 2025 LiuandXu | CC BY-SA 4.0
 
 theme:
   name: material
+  custom_dir: docs/overrides
   language: zh
   icon:
     repo: fontawesome/brands/github
@@ -48,6 +49,7 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js
   - assets/js/mermaid.js
+  - assets/js/giscus.js
 
 extra_css:
   - assets/css/extra.css

@@ -103,3 +103,14 @@
 .md-footer {
   margin-top: 2em;
 }
+
+/* ===== 评论区样式 ===== */
+#__comments {
+  margin-top: 2em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid var(--md-primary-fg-color);
+}
+
+#giscus-comments {
+  margin-bottom: 2em;
+}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ super() }}
+  <hr>
+  <h2 id="__comments">💬 讨论与反馈</h2>
+  <div id="giscus-comments" style="margin-top: 1rem;">
+    <p style="text-align: center; color: var(--md-default-fg-color--light);">
+      <em>评论由 GitHub Discussions 提供支持，登录 GitHub 后即可发言。</em>
+    </p>
+  </div>
+{% endblock %}
