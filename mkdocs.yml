@@ -50,6 +50,7 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js
   - assets/js/mermaid.js
   - assets/js/giscus.js
+  - assets/js/courseware-zoom.js
 
 extra_css:
   - assets/css/extra.css

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>课件图片预览审核（更新版）</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, "Microsoft YaHei", sans-serif; background: #f5f5f5; padding: 20px; }
+  h1 { text-align: center; margin-bottom: 10px; color: #333; }
+  .hint { text-align: center; color: #666; margin-bottom: 30px; font-size: 14px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(450px, 1fr)); gap: 20px; max-width: 1800px; margin: 0 auto; }
+  .card { background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+  .card img { width: 100%; display: block; cursor: zoom-in; }
+  .card .info { padding: 10px 16px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #eee; }
+  .card .label { font-size: 13px; color: #333; }
+  .card .badge { font-size: 11px; padding: 2px 8px; border-radius: 4px; background: #e3f2fd; color: #1976d2; }
+  .chapter-header { grid-column: 1 / -1; background: #1976d2; color: #fff; padding: 8px 16px; border-radius: 4px; margin-top: 10px; font-weight: bold; }
+</style>
+</head>
+<body>
+<h1>📚 课件图片预览审核（更新版）</h1>
+<p class="hint">共 72 张候选图片 | 点击图片可放大 | 告诉我要保留/删除哪些</p>
+<div class="grid">
+<div class="chapter-header">📁 02-电子状态</div>
+  <div class="card">
+    <img src="preview-l02-p01.png" alt="第2次课 p1" loading="lazy">
+    <div class="info"><span class="label">第2次课 p1</span><span class="badge">preview-l02-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l02-p02.png" alt="第2次课 p2" loading="lazy">
+    <div class="info"><span class="label">第2次课 p2</span><span class="badge">preview-l02-p02.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l02-p03.png" alt="第2次课 p3" loading="lazy">
+    <div class="info"><span class="label">第2次课 p3</span><span class="badge">preview-l02-p03.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l03-p01.png" alt="第3次课 p1" loading="lazy">
+    <div class="info"><span class="label">第3次课 p1</span><span class="badge">preview-l03-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l03-p02.png" alt="第3次课 p2" loading="lazy">
+    <div class="info"><span class="label">第3次课 p2</span><span class="badge">preview-l03-p02.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l03-p03.png" alt="第3次课 p3" loading="lazy">
+    <div class="info"><span class="label">第3次课 p3</span><span class="badge">preview-l03-p03.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l04-p01.png" alt="第4次课 p1" loading="lazy">
+    <div class="info"><span class="label">第4次课 p1</span><span class="badge">preview-l04-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l04-p02.png" alt="第4次课 p2" loading="lazy">
+    <div class="info"><span class="label">第4次课 p2</span><span class="badge">preview-l04-p02.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l04-p09.png" alt="第4次课 p9" loading="lazy">
+    <div class="info"><span class="label">第4次课 p9</span><span class="badge">preview-l04-p09.png</span></div>
+  </div>
+<div class="chapter-header">📁 03-杂质和缺陷能级</div>
+  <div class="card">
+    <img src="preview-l05-p01.png" alt="第5次课 p1" loading="lazy">
+    <div class="info"><span class="label">第5次课 p1</span><span class="badge">preview-l05-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l05-p04.png" alt="第5次课 p4" loading="lazy">
+    <div class="info"><span class="label">第5次课 p4</span><span class="badge">preview-l05-p04.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l05-p26.png" alt="第5次课 p26" loading="lazy">
+    <div class="info"><span class="label">第5次课 p26</span><span class="badge">preview-l05-p26.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l06-p01.png" alt="第6次课 p1" loading="lazy">
+    <div class="info"><span class="label">第6次课 p1</span><span class="badge">preview-l06-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l06-p02.png" alt="第6次课 p2" loading="lazy">
+    <div class="info"><span class="label">第6次课 p2</span><span class="badge">preview-l06-p02.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l06-p03.png" alt="第6次课 p3" loading="lazy">
+    <div class="info"><span class="label">第6次课 p3</span><span class="badge">preview-l06-p03.png</span></div>
+  </div>
+<div class="chapter-header">📁 04-平衡载流子</div>
+  <div class="card">
+    <img src="preview-l07-p01.png" alt="第7次课 p1" loading="lazy">
+    <div class="info"><span class="label">第7次课 p1</span><span class="badge">preview-l07-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l07-p02.png" alt="第7次课 p2" loading="lazy">
+    <div class="info"><span class="label">第7次课 p2</span><span class="badge">preview-l07-p02.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l07-p03.png" alt="第7次课 p3" loading="lazy">
+    <div class="info"><span class="label">第7次课 p3</span><span class="badge">preview-l07-p03.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l08-p01.png" alt="第8次课 p1" loading="lazy">
+    <div class="info"><span class="label">第8次课 p1</span><span class="badge">preview-l08-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l08-p13.png" alt="第8次课 p13" loading="lazy">
+    <div class="info"><span class="label">第8次课 p13</span><span class="badge">preview-l08-p13.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l08-p27.png" alt="第8次课 p27" loading="lazy">
+    <div class="info"><span class="label">第8次课 p27</span><span class="badge">preview-l08-p27.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l09-p01.png" alt="第9次课 p1" loading="lazy">
+    <div class="info"><span class="label">第9次课 p1</span><span class="badge">preview-l09-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l09-p02.png" alt="第9次课 p2" loading="lazy">
+    <div class="info"><span class="label">第9次课 p2</span><span class="badge">preview-l09-p02.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l09-p03.png" alt="第9次课 p3" loading="lazy">
+    <div class="info"><span class="label">第9次课 p3</span><span class="badge">preview-l09-p03.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l10-p01.png" alt="第10次课 p1" loading="lazy">
+    <div class="info"><span class="label">第10次课 p1</span><span class="badge">preview-l10-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l10-p02.png" alt="第10次课 p2" loading="lazy">
+    <div class="info"><span class="label">第10次课 p2</span><span class="badge">preview-l10-p02.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l10-p03.png" alt="第10次课 p3" loading="lazy">
+    <div class="info"><span class="label">第10次课 p3</span><span class="badge">preview-l10-p03.png</span></div>
+  </div>
+<div class="chapter-header">📁 05-导电性</div>
+  <div class="card">
+    <img src="preview-l11-p01.png" alt="第11次课 p1" loading="lazy">
+    <div class="info"><span class="label">第11次课 p1</span><span class="badge">preview-l11-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l11-p02.png" alt="第11次课 p2" loading="lazy">
+    <div class="info"><span class="label">第11次课 p2</span><span class="badge">preview-l11-p02.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l11-p03.png" alt="第11次课 p3" loading="lazy">
+    <div class="info"><span class="label">第11次课 p3</span><span class="badge">preview-l11-p03.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l12-p01.png" alt="第12次课 p1" loading="lazy">
+    <div class="info"><span class="label">第12次课 p1</span><span class="badge">preview-l12-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l12-p02.png" alt="第12次课 p2" loading="lazy">
+    <div class="info"><span class="label">第12次课 p2</span><span class="badge">preview-l12-p02.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l12-p03.png" alt="第12次课 p3" loading="lazy">
+    <div class="info"><span class="label">第12次课 p3</span><span class="badge">preview-l12-p03.png</span></div>
+  </div>
+<div class="chapter-header">📁 06-非平衡载流子</div>
+  <div class="card">
+    <img src="preview-l13-p01.png" alt="第13次课 p1" loading="lazy">
+    <div class="info"><span class="label">第13次课 p1</span><span class="badge">preview-l13-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l13-p02.png" alt="第13次课 p2" loading="lazy">
+    <div class="info"><span class="label">第13次课 p2</span><span class="badge">preview-l13-p02.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l13-p03.png" alt="第13次课 p3" loading="lazy">
+    <div class="info"><span class="label">第13次课 p3</span><span class="badge">preview-l13-p03.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l14-p01.png" alt="第14次课 p1" loading="lazy">
+    <div class="info"><span class="label">第14次课 p1</span><span class="badge">preview-l14-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l14-p02.png" alt="第14次课 p2" loading="lazy">
+    <div class="info"><span class="label">第14次课 p2</span><span class="badge">preview-l14-p02.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l14-p16.png" alt="第14次课 p16" loading="lazy">
+    <div class="info"><span class="label">第14次课 p16</span><span class="badge">preview-l14-p16.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l15-p01.png" alt="第15次课 p1" loading="lazy">
+    <div class="info"><span class="label">第15次课 p1</span><span class="badge">preview-l15-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l15-p02.png" alt="第15次课 p2" loading="lazy">
+    <div class="info"><span class="label">第15次课 p2</span><span class="badge">preview-l15-p02.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l15-p03.png" alt="第15次课 p3" loading="lazy">
+    <div class="info"><span class="label">第15次课 p3</span><span class="badge">preview-l15-p03.png</span></div>
+  </div>
+<div class="chapter-header">📁 07-pn结与金属半导体接触</div>
+  <div class="card">
+    <img src="preview-l16-p01.png" alt="第16次课 p1" loading="lazy">
+    <div class="info"><span class="label">第16次课 p1</span><span class="badge">preview-l16-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l16-p02.png" alt="第16次课 p2" loading="lazy">
+    <div class="info"><span class="label">第16次课 p2</span><span class="badge">preview-l16-p02.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l16-p03.png" alt="第16次课 p3" loading="lazy">
+    <div class="info"><span class="label">第16次课 p3</span><span class="badge">preview-l16-p03.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l17-p01.png" alt="第17次课 p1" loading="lazy">
+    <div class="info"><span class="label">第17次课 p1</span><span class="badge">preview-l17-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l17-p02.png" alt="第17次课 p2" loading="lazy">
+    <div class="info"><span class="label">第17次课 p2</span><span class="badge">preview-l17-p02.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l17-p03.png" alt="第17次课 p3" loading="lazy">
+    <div class="info"><span class="label">第17次课 p3</span><span class="badge">preview-l17-p03.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l18-p01.png" alt="第18次课 p1" loading="lazy">
+    <div class="info"><span class="label">第18次课 p1</span><span class="badge">preview-l18-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l18-p02.png" alt="第18次课 p2" loading="lazy">
+    <div class="info"><span class="label">第18次课 p2</span><span class="badge">preview-l18-p02.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l18-p03.png" alt="第18次课 p3" loading="lazy">
+    <div class="info"><span class="label">第18次课 p3</span><span class="badge">preview-l18-p03.png</span></div>
+  </div>
+<div class="chapter-header">📁 08-金半接触</div>
+  <div class="card">
+    <img src="preview-l19-p01.png" alt="第19次课 p1" loading="lazy">
+    <div class="info"><span class="label">第19次课 p1</span><span class="badge">preview-l19-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l19-p02.png" alt="第19次课 p2" loading="lazy">
+    <div class="info"><span class="label">第19次课 p2</span><span class="badge">preview-l19-p02.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l19-p03.png" alt="第19次课 p3" loading="lazy">
+    <div class="info"><span class="label">第19次课 p3</span><span class="badge">preview-l19-p03.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l20-p01.png" alt="第20次课 p1" loading="lazy">
+    <div class="info"><span class="label">第20次课 p1</span><span class="badge">preview-l20-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l20-p02.png" alt="第20次课 p2" loading="lazy">
+    <div class="info"><span class="label">第20次课 p2</span><span class="badge">preview-l20-p02.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l20-p03.png" alt="第20次课 p3" loading="lazy">
+    <div class="info"><span class="label">第20次课 p3</span><span class="badge">preview-l20-p03.png</span></div>
+  </div>
+<div class="chapter-header">📁 09-半导体表面与MIS结构</div>
+  <div class="card">
+    <img src="preview-l21-p01.png" alt="第21次课 p1" loading="lazy">
+    <div class="info"><span class="label">第21次课 p1</span><span class="badge">preview-l21-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l21-p06.png" alt="第21次课 p6" loading="lazy">
+    <div class="info"><span class="label">第21次课 p6</span><span class="badge">preview-l21-p06.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l21-p43.png" alt="第21次课 p43" loading="lazy">
+    <div class="info"><span class="label">第21次课 p43</span><span class="badge">preview-l21-p43.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l22-p01.png" alt="第22次课 p1" loading="lazy">
+    <div class="info"><span class="label">第22次课 p1</span><span class="badge">preview-l22-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l22-p02.png" alt="第22次课 p2" loading="lazy">
+    <div class="info"><span class="label">第22次课 p2</span><span class="badge">preview-l22-p02.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l22-p38.png" alt="第22次课 p38" loading="lazy">
+    <div class="info"><span class="label">第22次课 p38</span><span class="badge">preview-l22-p38.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l23-p01.png" alt="第23次课 p1" loading="lazy">
+    <div class="info"><span class="label">第23次课 p1</span><span class="badge">preview-l23-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l23-p02.png" alt="第23次课 p2" loading="lazy">
+    <div class="info"><span class="label">第23次课 p2</span><span class="badge">preview-l23-p02.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l23-p04.png" alt="第23次课 p4" loading="lazy">
+    <div class="info"><span class="label">第23次课 p4</span><span class="badge">preview-l23-p04.png</span></div>
+  </div>
+<div class="chapter-header">📁 10-MOSFET</div>
+  <div class="card">
+    <img src="preview-l24-p01.png" alt="第24次课 p1" loading="lazy">
+    <div class="info"><span class="label">第24次课 p1</span><span class="badge">preview-l24-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l24-p03.png" alt="第24次课 p3" loading="lazy">
+    <div class="info"><span class="label">第24次课 p3</span><span class="badge">preview-l24-p03.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l24-p36.png" alt="第24次课 p36" loading="lazy">
+    <div class="info"><span class="label">第24次课 p36</span><span class="badge">preview-l24-p36.png</span></div>
+  </div>
+<div class="chapter-header">📁 11-异质结</div>
+  <div class="card">
+    <img src="preview-l25-p01.png" alt="第25次课 p1" loading="lazy">
+    <div class="info"><span class="label">第25次课 p1</span><span class="badge">preview-l25-p01.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l25-p04.png" alt="第25次课 p4" loading="lazy">
+    <div class="info"><span class="label">第25次课 p4</span><span class="badge">preview-l25-p04.png</span></div>
+  </div>
+  <div class="card">
+    <img src="preview-l25-p39.png" alt="第25次课 p39" loading="lazy">
+    <div class="info"><span class="label">第25次课 p39</span><span class="badge">preview-l25-p39.png</span></div>
+  </div>
+</div>
+<script>
+document.querySelectorAll('.card img').forEach(img => {
+  img.addEventListener('click', function() {
+    if (this.classList.contains('zoomed')) {
+      this.classList.remove('zoomed');
+      this.style.cssText = 'width:100%;display:block;cursor:zoom-in;';
+    } else {
+      this.classList.add('zoomed');
+      this.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(1.8);z-index:9999;max-width:95vw;max-height:95vh;cursor:zoom-out;box-shadow:0 20px 60px rgba(0,0,0,0.5);';
+    }
+  });
+});
+</script>
+</body>
+</html>

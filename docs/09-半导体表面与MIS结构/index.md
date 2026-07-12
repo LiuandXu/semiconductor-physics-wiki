@@ -195,3 +195,238 @@ $$Q_s = -\varepsilon_r \varepsilon_0 E_s = \mp \frac{\sqrt{2}\varepsilon_r \vare
 本节从表面态的物理起源（悬挂键）出发，介绍了表面态的分类（施主/受主型）及其对金半接触的"钉扎"效应。然后以MIS结构为模型，定性分析了P型半导体表面在外加电压下的三种基本情况（堆积、耗尽、反型），并给出了定量描述表面电荷与表面势关系的泊松方程和 $F$ 函数表达式。掌握这些内容是理解后续MIS结构C-V特性的基础。
 
 ---
+
+
+---
+
+## 📑 课件截图
+
+以下为9.1 表面态与电场相关课件页面，点击图片可放大查看。
+
+### 第21次课
+
+<div class="courseware-gallery" markdown>
+
+<figure markdown="1">
+![第21次课 p2](../assets/images/courseware/09-半导体表面与MIS结构/l21-p02.png)
+<figcaption>第21次课 - p2</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p3](../assets/images/courseware/09-半导体表面与MIS结构/l21-p03.png)
+<figcaption>第21次课 - p3</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p4](../assets/images/courseware/09-半导体表面与MIS结构/l21-p04.png)
+<figcaption>第21次课 - p4</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p5](../assets/images/courseware/09-半导体表面与MIS结构/l21-p05.png)
+<figcaption>第21次课 - p5</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p6](../assets/images/courseware/09-半导体表面与MIS结构/l21-p06.png)
+<figcaption>第21次课 - p6</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p7](../assets/images/courseware/09-半导体表面与MIS结构/l21-p07.png)
+<figcaption>第21次课 - p7</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p8](../assets/images/courseware/09-半导体表面与MIS结构/l21-p08.png)
+<figcaption>第21次课 - p8</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p9](../assets/images/courseware/09-半导体表面与MIS结构/l21-p09.png)
+<figcaption>第21次课 - p9</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p10](../assets/images/courseware/09-半导体表面与MIS结构/l21-p10.png)
+<figcaption>第21次课 - p10</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p11](../assets/images/courseware/09-半导体表面与MIS结构/l21-p11.png)
+<figcaption>第21次课 - p11</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p12](../assets/images/courseware/09-半导体表面与MIS结构/l21-p12.png)
+<figcaption>第21次课 - p12</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p13](../assets/images/courseware/09-半导体表面与MIS结构/l21-p13.png)
+<figcaption>第21次课 - p13</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p14](../assets/images/courseware/09-半导体表面与MIS结构/l21-p14.png)
+<figcaption>第21次课 - p14</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p15](../assets/images/courseware/09-半导体表面与MIS结构/l21-p15.png)
+<figcaption>第21次课 - p15</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p16](../assets/images/courseware/09-半导体表面与MIS结构/l21-p16.png)
+<figcaption>第21次课 - p16</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p17](../assets/images/courseware/09-半导体表面与MIS结构/l21-p17.png)
+<figcaption>第21次课 - p17</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p18](../assets/images/courseware/09-半导体表面与MIS结构/l21-p18.png)
+<figcaption>第21次课 - p18</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p19](../assets/images/courseware/09-半导体表面与MIS结构/l21-p19.png)
+<figcaption>第21次课 - p19</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p20](../assets/images/courseware/09-半导体表面与MIS结构/l21-p20.png)
+<figcaption>第21次课 - p20</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p21](../assets/images/courseware/09-半导体表面与MIS结构/l21-p21.png)
+<figcaption>第21次课 - p21</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p22](../assets/images/courseware/09-半导体表面与MIS结构/l21-p22.png)
+<figcaption>第21次课 - p22</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p23](../assets/images/courseware/09-半导体表面与MIS结构/l21-p23.png)
+<figcaption>第21次课 - p23</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p24](../assets/images/courseware/09-半导体表面与MIS结构/l21-p24.png)
+<figcaption>第21次课 - p24</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p25](../assets/images/courseware/09-半导体表面与MIS结构/l21-p25.png)
+<figcaption>第21次课 - p25</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p26](../assets/images/courseware/09-半导体表面与MIS结构/l21-p26.png)
+<figcaption>第21次课 - p26</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p27](../assets/images/courseware/09-半导体表面与MIS结构/l21-p27.png)
+<figcaption>第21次课 - p27</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p28](../assets/images/courseware/09-半导体表面与MIS结构/l21-p28.png)
+<figcaption>第21次课 - p28</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p29](../assets/images/courseware/09-半导体表面与MIS结构/l21-p29.png)
+<figcaption>第21次课 - p29</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p30](../assets/images/courseware/09-半导体表面与MIS结构/l21-p30.png)
+<figcaption>第21次课 - p30</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p31](../assets/images/courseware/09-半导体表面与MIS结构/l21-p31.png)
+<figcaption>第21次课 - p31</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p32](../assets/images/courseware/09-半导体表面与MIS结构/l21-p32.png)
+<figcaption>第21次课 - p32</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p33](../assets/images/courseware/09-半导体表面与MIS结构/l21-p33.png)
+<figcaption>第21次课 - p33</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p34](../assets/images/courseware/09-半导体表面与MIS结构/l21-p34.png)
+<figcaption>第21次课 - p34</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p35](../assets/images/courseware/09-半导体表面与MIS结构/l21-p35.png)
+<figcaption>第21次课 - p35</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p36](../assets/images/courseware/09-半导体表面与MIS结构/l21-p36.png)
+<figcaption>第21次课 - p36</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p37](../assets/images/courseware/09-半导体表面与MIS结构/l21-p37.png)
+<figcaption>第21次课 - p37</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p38](../assets/images/courseware/09-半导体表面与MIS结构/l21-p38.png)
+<figcaption>第21次课 - p38</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p39](../assets/images/courseware/09-半导体表面与MIS结构/l21-p39.png)
+<figcaption>第21次课 - p39</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p40](../assets/images/courseware/09-半导体表面与MIS结构/l21-p40.png)
+<figcaption>第21次课 - p40</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p41](../assets/images/courseware/09-半导体表面与MIS结构/l21-p41.png)
+<figcaption>第21次课 - p41</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p42](../assets/images/courseware/09-半导体表面与MIS结构/l21-p42.png)
+<figcaption>第21次课 - p42</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p43](../assets/images/courseware/09-半导体表面与MIS结构/l21-p43.png)
+<figcaption>第21次课 - p43</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p44](../assets/images/courseware/09-半导体表面与MIS结构/l21-p44.png)
+<figcaption>第21次课 - p44</figcaption>
+</figure>
+
+<figure markdown="1">
+![第21次课 p45](../assets/images/courseware/09-半导体表面与MIS结构/l21-p45.png)
+<figcaption>第21次课 - p45</figcaption>
+</figure>
+
+</div>
+
+*来源：曹荣荣老师课件*

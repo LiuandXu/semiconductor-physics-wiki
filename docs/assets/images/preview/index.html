@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>课件缩略图总览</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, "Microsoft YaHei", sans-serif; background: #f5f5f5; padding: 20px; }
+  h1 { text-align: center; margin-bottom: 10px; color: #333; }
+  .hint { text-align: center; color: #666; margin-bottom: 30px; font-size: 14px; line-height: 1.8; }
+  .grid { display: grid; grid-template-columns: 1fr; gap: 30px; max-width: 1400px; margin: 0 auto; }
+  .sheet-card { background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+  .sheet-card h2 { padding: 12px 20px; background: #1976d2; color: #fff; font-size: 16px; }
+  .sheet-card img { width: 100%; display: block; cursor: zoom-in; }
+  .nav { position: sticky; top: 0; background: #fff; padding: 10px 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 20px; max-width: 1400px; margin-left: auto; margin-right: auto; }
+  .nav a { display: inline-block; padding: 4px 10px; margin: 2px; font-size: 12px; color: #1976d2; text-decoration: none; border: 1px solid #e3f2fd; border-radius: 4px; }
+  .nav a:hover { background: #e3f2fd; }
+</style>
+</head>
+<body>
+<h1>📚 课件缩略图总览</h1>
+<p class="hint">
+  共 24 个课件，每个课件的所有页面缩略图如下<br>
+  <b>使用方式：</b>找到包含物理图示的页面，记下页码（如"第3次课 p15"），告诉我即可<br>
+  也可以直接说"第X次课保留p1,p2,p3"，我会渲染高清版并插入
+</p>
+<div class="nav">
+  <a href="#l02">第2次课</a><a href="#l03">第3次课</a><a href="#l04">第4次课</a>
+  <a href="#l05">第5次课</a><a href="#l06">第6次课</a><a href="#l07">第7次课</a>
+  <a href="#l08">第8次课</a><a href="#l09">第9次课</a><a href="#l10">第10次课</a>
+  <a href="#l11">第11次课</a><a href="#l12">第12次课</a><a href="#l13">第13次课</a>
+  <a href="#l14">第14次课</a><a href="#l15">第15次课</a><a href="#l16">第16次课</a>
+  <a href="#l17">第17次课</a><a href="#l18">第18次课</a><a href="#l19">第19次课</a>
+  <a href="#l20">第20次课</a><a href="#l21">第21次课</a><a href="#l22">第22次课</a>
+  <a href="#l23">第23次课</a><a href="#l24">第24次课</a><a href="#l25">第25次课</a>
+</div>
+<div class="grid">
+  <div class="sheet-card" id="l02"><h2>第2次课 - 2.1 晶体结构 (35页)</h2><img src="sheet-l02.png" loading="lazy"></div>
+  <div class="sheet-card" id="l03"><h2>第3次课 - 2.2 能带论 (40页)</h2><img src="sheet-l03.png" loading="lazy"></div>
+  <div class="sheet-card" id="l04"><h2>第4次课 - 2.3有效质量 2.4能带结构 (43页)</h2><img src="sheet-l04.png" loading="lazy"></div>
+  <div class="sheet-card" id="l05"><h2>第5次课 - 3.1 硅锗杂质能级 (47页)</h2><img src="sheet-l05.png" loading="lazy"></div>
+  <div class="sheet-card" id="l06"><h2>第6次课 - 3.2 III-V族杂质 (46页)</h2><img src="sheet-l06.png" loading="lazy"></div>
+  <div class="sheet-card" id="l07"><h2>第7次课 - 4.1状态密度 4.2费米分布 (36页)</h2><img src="sheet-l07.png" loading="lazy"></div>
+  <div class="sheet-card" id="l08"><h2>第8次课 - 4.2 本征载流子浓度 (38页)</h2><img src="sheet-l08.png" loading="lazy"></div>
+  <div class="sheet-card" id="l09"><h2>第9次课 - 4.3 杂质半导体载流子 (49页)</h2><img src="sheet-l09.png" loading="lazy"></div>
+  <div class="sheet-card" id="l10"><h2>第10次课 - 4.4 简并半导体 (38页)</h2><img src="sheet-l10.png" loading="lazy"></div>
+  <div class="sheet-card" id="l11"><h2>第11次课 - 5.1 漂移与散射 (34页)</h2><img src="sheet-l11.png" loading="lazy"></div>
+  <div class="sheet-card" id="l12"><h2>第12次课 - 5.2 迁移率与电导率 (37页)</h2><img src="sheet-l12.png" loading="lazy"></div>
+  <div class="sheet-card" id="l13"><h2>第13次课 - 6.1注入 6.2准费米 (37页)</h2><img src="sheet-l13.png" loading="lazy"></div>
+  <div class="sheet-card" id="l14"><h2>第14次课 - 6.3 复合理论 (38页)</h2><img src="sheet-l14.png" loading="lazy"></div>
+  <div class="sheet-card" id="l15"><h2>第15次课 - 6.3 扩散与爱因斯坦 (38页)</h2><img src="sheet-l15.png" loading="lazy"></div>
+  <div class="sheet-card" id="l16"><h2>第16次课 - 7.1接触 7.2能带图 (46页)</h2><img src="sheet-l16.png" loading="lazy"></div>
+  <div class="sheet-card" id="l17"><h2>第17次课 - 7.2 pn结载流子分布 (29页)</h2><img src="sheet-l17.png" loading="lazy"></div>
+  <div class="sheet-card" id="l18"><h2>第18次课 - 7.3 J-V特性与击穿 (32页)</h2><img src="sheet-l18.png" loading="lazy"></div>
+  <div class="sheet-card" id="l19"><h2>第19次课 - 8.1 金半接触能带图 (38页)</h2><img src="sheet-l19.png" loading="lazy"></div>
+  <div class="sheet-card" id="l20"><h2>第20次课 - 8.2 整流与欧姆接触 (31页)</h2><img src="sheet-l20.png" loading="lazy"></div>
+  <div class="sheet-card" id="l21"><h2>第21次课 - 9.1 表面态与电场 (45页)</h2><img src="sheet-l21.png" loading="lazy"></div>
+  <div class="sheet-card" id="l22"><h2>第22次课 - 9.2 MIS的C-V特性 (40页)</h2><img src="sheet-l22.png" loading="lazy"></div>
+  <div class="sheet-card" id="l23"><h2>第23次课 - 9.3 Si-SiO2系统 (45页)</h2><img src="sheet-l23.png" loading="lazy"></div>
+  <div class="sheet-card" id="l24"><h2>第24次课 - 10.1 MOSFET (38页)</h2><img src="sheet-l24.png" loading="lazy"></div>
+  <div class="sheet-card" id="l25"><h2>第25次课 - 11.1 异质结能带图 (41页)</h2><img src="sheet-l25.png" loading="lazy"></div>
+</div>
+<script>
+document.querySelectorAll('.sheet-card img').forEach(img => {
+  img.addEventListener('click', function() {
+    if (this.style.cursor === 'zoom-out') {
+      this.style.cssText = 'width:100%;display:block;cursor:zoom-in;';
+    } else {
+      this.style.cssText = 'cursor:zoom-out;width:200%;position:relative;left:-25%;';
+      this.scrollIntoView({behavior:'smooth',block:'center'});
+    }
+  });
+});
+</script>
+</body>
+</html>
