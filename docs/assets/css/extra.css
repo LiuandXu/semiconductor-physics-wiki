@@ -1,12 +1,33 @@
 /* ===== 半导体物理 Wiki 自定义样式 ===== */
 
-/* 顶部导航标签：缩小字号和间距以显示所有 10 个章节 */
-.md-tabs__link {
-  font-size: 0.7rem;
+/* 顶部导航标签：两排布局 */
+.md-tabs {
+  flex-wrap: wrap;
+  row-gap: 0;
 }
+
+.md-tabs__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.md-tabs__link {
+  font-size: 0.75rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
 .md-tabs__item {
-  padding-left: 0.15rem;
-  padding-right: 0.15rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  flex-shrink: 0;
+}
+
+.md-tabs__item--active .md-tabs__link {
+  border-bottom: 2px solid var(--md-primary-fg-color);
 }
 
 /* 词云样式 */
