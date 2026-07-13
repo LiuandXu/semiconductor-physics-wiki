@@ -55,7 +55,7 @@
 
 ## 简介
 
-半导体物理学是理解现代电子器件和光电器件的理论基础。本 Wiki 涵盖从**晶体结构与能带论**到**MOSFET 与异质结**的完整知识体系，共 10 章、27 节课。
+半导体物理学是理解现代电子器件和光电器件的理论基础。本 Wiki 涵盖从**绪论与半导体发展**到**MOSFET 与异质结**的完整知识体系，共 11 章、28 节课。
 
 核心线索：**从微观电子行为出发，理解宏观电学性质，最终指导半导体器件设计**。
 
@@ -63,33 +63,36 @@
 
 ```mermaid
 flowchart TD
-    A["晶体结构"] --> B["电子状态与能带论"]
-    B --> C["杂质与缺陷"]
+    A["绪论：半导体概述与发展"] --> B["晶体结构"]
+    B --> C["电子状态与能带论"]
+    C --> D["杂质与缺陷"]
 
-    C --> D["有效质量"]
-    C --> E["载流子浓度"]
+    D --> E["有效质量"]
+    D --> F["载流子浓度"]
 
-    D --> F["导电性：漂移与散射"]
-    F --> G["迁移率与电导率"]
+    E --> G["导电性：漂移与散射"]
+    G --> H["迁移率与电导率"]
 
-    E --> H["pn结与金半接触与MIS"]
-    H --> I["MOSFET与异质结与超晶格"]
+    F --> I["pn结与金半接触与MIS"]
+    I --> J["MOSFET与异质结与超晶格"]
 
     style A fill:#1a73e8,color:#fff,stroke:none
     style B fill:#4285f4,color:#fff,stroke:none
-    style C fill:#7baaf7,color:#fff,stroke:none
-    style D fill:#34a853,color:#fff,stroke:none
-    style F fill:#34a853,color:#fff,stroke:none
+    style C fill:#4285f4,color:#fff,stroke:none
+    style D fill:#7baaf7,color:#fff,stroke:none
+    style E fill:#34a853,color:#fff,stroke:none
     style G fill:#34a853,color:#fff,stroke:none
-    style E fill:#ea8600,color:#fff,stroke:none
-    style H fill:#ea8600,color:#fff,stroke:none
+    style H fill:#34a853,color:#fff,stroke:none
+    style F fill:#ea8600,color:#fff,stroke:none
     style I fill:#ea8600,color:#fff,stroke:none
+    style J fill:#ea8600,color:#fff,stroke:none
 ```
 
 ## 快速导航
 
 | 专题 | 章节 | 核心内容 |
 |:---|:---|:---|
+| **导论** | 第一章 | 半导体概念、研究内容、发展简史 |
 | **微观基础** | 第二、三章 | 晶体结构、能带论、有效质量、杂质能级 |
 | **载流子与输运** | 第四、五、六章 | 状态密度、费米分布、漂移散射、非平衡载流子 |
 | **结型器件** | 第七、八章 | pn结、金半接触、肖特基二极管、欧姆接触 |
@@ -99,7 +102,7 @@ flowchart TD
 
 刘恩科, 朱秉升, 罗晋生 等.《半导体物理学（第8版）》. 电子工业出版社.
 
-授课课件：曹荣荣老师（第02次课 ~ 第28次课，共 27 份 PDF）
+授课课件：曹荣荣老师（第01次课 ~ 第28次课，共 28 份 PDF）
 
 ## 使用说明
 

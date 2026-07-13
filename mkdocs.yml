@@ -50,7 +50,6 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js
   - assets/js/mermaid.js
   - assets/js/giscus.js
-  - assets/js/courseware-zoom.js
 
 extra_css:
   - assets/css/extra.css
@@ -102,6 +101,9 @@ plugins:
 nav:
   - 首页: index.md
   - 📝 考试复习: exam-review.md
+  - 第一章 绪论:
+    - 1.1 半导体研究内容与发展: 01-绪论/index.md
+    - 本章总结: 01-绪论/summary.md
   - 第二章 电子状态:
     - 2.1 晶体结构: 02-电子状态/index.md
     - 2.2 电子状态与能带论: 02-电子状态/2-2.md

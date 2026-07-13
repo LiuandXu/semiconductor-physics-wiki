@@ -166,63 +166,6 @@
   to   { opacity: 0; }
 }
 
-/* ===== 课件截图画廊 ===== */
-.courseware-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 16px;
-  margin: 1.5em 0;
-}
-
-.courseware-gallery figure {
-  margin: 0;
-  border-radius: 6px;
-  overflow: hidden;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-  transition: transform 0.2s, box-shadow 0.2s;
-  background: var(--md-default-bg-color);
-}
-
-.courseware-gallery figure:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-}
-
-.courseware-gallery figure img {
-  width: 100%;
-  display: block;
-  cursor: zoom-in;
-}
-
-.courseware-gallery figcaption {
-  padding: 6px 10px;
-  font-size: 0.75rem;
-  color: var(--md-default-fg-color--light);
-  text-align: center;
-  background: var(--md-default-fg-color--lightest);
-}
-
-/* 课件图片 lightbox */
-.courseware-lightbox {
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0,0,0,0.9);
-  z-index: 10000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: zoom-out;
-  animation: mermaidFadeIn 0.2s ease;
-}
-
-.courseware-lightbox img {
-  max-width: 95vw;
-  max-height: 95vh;
-  border-radius: 4px;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
-}
-
 /* ===== 评论区样式 ===== */
 #__comments {
   margin-top: 2em;
