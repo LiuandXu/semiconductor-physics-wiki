@@ -78,7 +78,7 @@
 
 | 考点 | 对应章节 |
 |------|----------|
-| :material-chart-sankey: PN 结形成过程及能带图（默认同质结） | [7.2 pn结载流子分布](07-pn结与金属半导体接触/7-2.md) |
+| :material-chart-sankey: PN 结形成过程及能带图（默认同质结） | [7.1 pn结及其能带图](07-pn结与金属半导体接触/index.md) |
 | :material-sine-wave: 电流电压特性，载流子注入与抽取 | [7.3 J-V特性](07-pn结与金属半导体接触/7-3.md) |
 | :material-math-integral: 电流电压方程（要求会画能带图） | [7.3 J-V特性](07-pn结与金属半导体接触/7-3.md) |
 
