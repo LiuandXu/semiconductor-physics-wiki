@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#534AB7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- 电子状态：晶体单胞（晶格 + 原子） -->
+  <path d="M14 18 L14 34 L30 34 L30 18 Z"/>
+  <path d="M14 18 L22 12 L38 12 L30 18"/>
+  <path d="M30 18 L38 12 L38 28 L30 34"/>
+  <circle cx="22" cy="23" r="2" fill="#534AB7" stroke="none"/>
+</svg>

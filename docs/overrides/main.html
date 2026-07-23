@@ -9,4 +9,24 @@
       <em>评论由 GitHub Discussions 提供支持，登录 GitHub 后即可发言。</em>
     </p>
   </div>
+
+  <script>
+    (function () {
+      var bar = document.createElement('div');
+      bar.className = 'sp-progress';
+      var inner = document.createElement('div');
+      inner.className = 'sp-progress__bar';
+      bar.appendChild(inner);
+      document.body.appendChild(bar);
+      function update() {
+        var d = document.documentElement;
+        var st = d.scrollTop || document.body.scrollTop;
+        var sh = d.scrollHeight - d.clientHeight;
+        inner.style.width = (sh > 0 ? (st / sh) * 100 : 0) + '%';
+      }
+      window.addEventListener('scroll', update, { passive: true });
+      window.addEventListener('resize', update);
+      update();
+    })();
+  </script>
 {% endblock %}

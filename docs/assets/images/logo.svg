@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="#ffffff" aria-hidden="true">
+  <!-- 晶体外壳（六边形晶格） -->
+  <path d="M24 4 L41 14 V34 L24 44 L7 34 V14 Z" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- 价带（已填满，下能带） -->
+  <path d="M11 35 L11 31 Q24 23 37 31 L37 35 Z"/>
+  <!-- 导带（空带，上能带） -->
+  <path d="M11 13 L11 17 Q24 25 37 17 L37 13 Z"/>
+  <!-- 跃迁到导带的电子（硅蓝点缀） -->
+  <circle cx="24" cy="18" r="2.6" fill="#185FA5"/>
+</svg>

@@ -2,7 +2,11 @@
 
 > 基于《半导体物理学（第8版）》（刘恩科等）课程课件整理的学习笔记
 >
-> 授课教师：曹荣荣 | 笔记整理时间：2026 年春季学期
+> 课程学习笔记 · 持续更新
+
+<div class="sp-hero">
+  <span>11 章 · 28 节</span>
+</div>
 
 ---
 
@@ -61,32 +65,34 @@
 
 ## 知识脉络
 
-```mermaid
-flowchart TD
-    A["绪论：半导体概述与发展"] --> B["晶体结构"]
-    B --> C["电子状态与能带论"]
-    C --> D["杂质与缺陷"]
+<div markdown="0">
 
-    D --> E["有效质量"]
-    D --> F["载流子浓度"]
+<svg class="sp-kmap" viewBox="0 0 1100 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="半导体物理 11 章知识脉络图">
+  <title>半导体物理 11 章知识脉络图（微观 → 宏观）</title>
+  <polyline points="50,120 150,75 250,170 350,85 450,165 550,90 650,170 750,85 850,165 950,90 1050,150" fill="none" stroke="var(--md-default-fg-color--lightest)" stroke-width="2" stroke-dasharray="5 5"/>
+  <g font-family="Noto Sans SC, sans-serif" text-anchor="middle">
+    <a href="01-绪论/"><circle class="sp-node" cx="50" cy="120" r="23" fill="#fff" stroke="#534AB7" stroke-width="2.5"/><image href="assets/images/chapter-01.svg" x="37" y="107" width="26" height="26"/><text class="sp-label" x="50" y="160">导论</text></a>
+    <a href="02-电子状态/"><circle class="sp-node" cx="150" cy="75" r="23" fill="#fff" stroke="#534AB7" stroke-width="2.5"/><image href="assets/images/chapter-02.svg" x="137" y="62" width="26" height="26"/><text class="sp-label" x="150" y="115">电子状态</text></a>
+    <a href="03-杂质和缺陷能级/"><circle class="sp-node" cx="250" cy="170" r="23" fill="#fff" stroke="#534AB7" stroke-width="2.5"/><image href="assets/images/chapter-03.svg" x="237" y="157" width="26" height="26"/><text class="sp-label" x="250" y="210">杂质能级</text></a>
+    <a href="04-平衡载流子/"><circle class="sp-node" cx="350" cy="85" r="23" fill="#fff" stroke="#0F6E56" stroke-width="2.5"/><image href="assets/images/chapter-04.svg" x="337" y="72" width="26" height="26"/><text class="sp-label" x="350" y="125">平衡载流子</text></a>
+    <a href="05-导电性/"><circle class="sp-node" cx="450" cy="165" r="23" fill="#fff" stroke="#0F6E56" stroke-width="2.5"/><image href="assets/images/chapter-05.svg" x="437" y="152" width="26" height="26"/><text class="sp-label" x="450" y="205">导电性</text></a>
+    <a href="06-非平衡载流子/"><circle class="sp-node" cx="550" cy="90" r="23" fill="#fff" stroke="#0F6E56" stroke-width="2.5"/><image href="assets/images/chapter-06.svg" x="537" y="77" width="26" height="26"/><text class="sp-label" x="550" y="130">非平衡载流子</text></a>
+    <a href="07-pn结与金属半导体接触/"><circle class="sp-node" cx="650" cy="170" r="23" fill="#fff" stroke="#854F0B" stroke-width="2.5"/><image href="assets/images/chapter-07.svg" x="637" y="157" width="26" height="26"/><text class="sp-label" x="650" y="210">pn结</text></a>
+    <a href="08-金半接触/"><circle class="sp-node" cx="750" cy="85" r="23" fill="#fff" stroke="#854F0B" stroke-width="2.5"/><image href="assets/images/chapter-08.svg" x="737" y="72" width="26" height="26"/><text class="sp-label" x="750" y="125">金半接触</text></a>
+    <a href="09-半导体表面与MIS结构/"><circle class="sp-node" cx="850" cy="165" r="23" fill="#fff" stroke="#185FA5" stroke-width="2.5"/><image href="assets/images/chapter-09.svg" x="837" y="152" width="26" height="26"/><text class="sp-label" x="850" y="205">表面MIS</text></a>
+    <a href="10-MOSFET/"><circle class="sp-node" cx="950" cy="90" r="23" fill="#fff" stroke="#185FA5" stroke-width="2.5"/><image href="assets/images/chapter-10.svg" x="937" y="77" width="26" height="26"/><text class="sp-label" x="950" y="130">MOSFET</text></a>
+    <a href="11-异质结/"><circle class="sp-node" cx="1050" cy="150" r="23" fill="#fff" stroke="#185FA5" stroke-width="2.5"/><image href="assets/images/chapter-11.svg" x="1037" y="137" width="26" height="26"/><text class="sp-label" x="1050" y="190">异质结</text></a>
+  </g>
+</svg>
 
-    E --> G["导电性：漂移与散射"]
-    G --> H["迁移率与电导率"]
+<div class="sp-kmap-legend">
+  <span><i style="background:#534AB7"></i>导论 / 微观基础</span>
+  <span><i style="background:#0F6E56"></i>载流子与输运</span>
+  <span><i style="background:#854F0B"></i>结型器件</span>
+  <span><i style="background:#185FA5"></i>表面与器件</span>
+</div>
 
-    F --> I["pn结与金半接触与MIS"]
-    I --> J["MOSFET与异质结与超晶格"]
-
-    style A fill:#1a73e8,color:#fff,stroke:none
-    style B fill:#4285f4,color:#fff,stroke:none
-    style C fill:#4285f4,color:#fff,stroke:none
-    style D fill:#7baaf7,color:#fff,stroke:none
-    style E fill:#34a853,color:#fff,stroke:none
-    style G fill:#34a853,color:#fff,stroke:none
-    style H fill:#34a853,color:#fff,stroke:none
-    style F fill:#ea8600,color:#fff,stroke:none
-    style I fill:#ea8600,color:#fff,stroke:none
-    style J fill:#ea8600,color:#fff,stroke:none
-```
+</div>
 
 ## 快速导航
 
@@ -98,11 +104,34 @@ flowchart TD
 | **结型器件** | 第七、八章 | pn结、金半接触、肖特基二极管、欧姆接触 |
 | **表面与器件** | 第九、十、十一章 | MIS结构、C-V特性、MOSFET、异质结、超晶格 |
 
+## 学习入口
+
+<div class="sp-cards">
+  <div class="sp-card">
+    <div class="sp-card__icon" style="background:#854F0B">复</div>
+    <h3>考试复习</h3>
+    <p>重点梳理、易错点与速记口诀，考前冲刺。</p>
+    <a class="sp-card__link" href="exam-review/">进入 →</a>
+  </div>
+  <div class="sp-card">
+    <div class="sp-card__icon" style="background:#185FA5">Σ</div>
+    <h3>公式手册</h3>
+    <p>按章节检索核心公式，支持一键复制。</p>
+    <a class="sp-card__link" href="formula-reference/">进入 →</a>
+  </div>
+  <div class="sp-card">
+    <div class="sp-card__icon" style="background:#0F6E56">共</div>
+    <h3>共建仓库</h3>
+    <p>Fork → 编辑 → PR，一起完善 Wiki。</p>
+    <a class="sp-card__link" href="https://github.com/LiuandXu/semiconductor-physics-wiki">参与 →</a>
+  </div>
+</div>
+
 ## 参考教材
 
 刘恩科, 朱秉升, 罗晋生 等.《半导体物理学（第8版）》. 电子工业出版社.
 
-授课课件：曹荣荣老师（第01次课 ~ 第28次课，共 28 份 PDF）
+授课课件：共 28 份 PDF
 
 ## 使用说明
 

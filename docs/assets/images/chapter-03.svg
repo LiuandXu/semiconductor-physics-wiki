@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="#534AB7" stroke="none">
+  <!-- 杂质和缺陷能级：完整晶格中一个杂质/缺陷（空心方块） -->
+  <circle cx="14" cy="14" r="2.6"/><circle cx="24" cy="14" r="2.6"/><circle cx="34" cy="14" r="2.6"/>
+  <circle cx="14" cy="24" r="2.6"/><circle cx="34" cy="24" r="2.6"/>
+  <circle cx="14" cy="34" r="2.6"/><circle cx="24" cy="34" r="2.6"/><circle cx="34" cy="34" r="2.6"/>
+  <rect x="21.2" y="21.2" width="5.6" height="5.6" fill="none" stroke="#534AB7" stroke-width="2.4"/>
+</svg>

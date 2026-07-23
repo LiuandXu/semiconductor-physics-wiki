@@ -1,11 +1,11 @@
 site_name: 半导体物理 Wiki
 site_url: https://liuandxu.github.io/semiconductor-physics-wiki/
 site_description: 半导体物理学（第8版）学习笔记 — 基于刘恩科教材和课程课件整理
-site_author: LiuandXu
+site_author: ""
 repo_name: LiuandXu/semiconductor-physics-wiki
 repo_url: https://github.com/LiuandXu/semiconductor-physics-wiki
 edit_uri: edit/main/docs/
-copyright: Copyright &copy; 2025 LiuandXu | CC BY-SA 4.0
+copyright: Copyright &copy; 2025 半导体物理课程笔记 | CC BY-SA 4.0
 
 theme:
   name: material
@@ -14,18 +14,20 @@ theme:
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.svg
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: 切换到深色模式
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: light-blue
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: 切换到浅色模式
@@ -101,6 +103,7 @@ plugins:
 nav:
   - 首页: index.md
   - 📝 考试复习: exam-review.md
+  - 📐 公式手册: formula-reference.md
   - 第一章 绪论:
     - 1.1 半导体研究内容与发展: 01-绪论/index.md
     - 本章总结: 01-绪论/summary.md

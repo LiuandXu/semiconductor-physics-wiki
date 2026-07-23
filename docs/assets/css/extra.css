@@ -176,3 +176,173 @@
 #giscus-comments {
   margin-bottom: 2em;
 }
+
+/* =========================================================
+   半导体物理 Wiki — 设计升级
+   硅蓝主题 / 知识脉络图 / 阅读进度 / 入口卡片 / 考点标签
+   ========================================================= */
+
+/* --- 自定义主题色：硅蓝 primary + 青 accent --- */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #185FA5;
+  --md-primary-fg-color--light: #378ADD;
+  --md-primary-fg-color--dark: #0C447C;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: #ffffff;
+  --md-primary-bg-color--dark: #eaf1f9;
+  --md-accent-fg-color: #0891B2;
+  --md-accent-fg-color--light: #06B6D4;
+  --md-accent-fg-color--dark: #0E7490;
+  --md-accent-bg-color: #ffffff;
+
+  /* 章节聚类配色 */
+  --sp-c-micro: #534AB7; /* 导论 / 微观基础 */
+  --sp-c-trans: #0F6E56; /* 载流子与输运 */
+  --sp-c-junc:  #854F0B; /* 结型器件 */
+  --sp-c-dev:   #185FA5; /* 表面与器件 */
+}
+
+/* 深色模式：提高对比度，保证公式可读 */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #378ADD;
+  --md-primary-fg-color--dark: #185FA5;
+  --md-accent-fg-color: #22D3EE;
+  --md-primary-bg-color--dark: #1b2733;
+  --sp-c-micro: #A78BFA;
+  --sp-c-trans: #2DD4BF;
+  --sp-c-junc:  #FBBF24;
+  --sp-c-dev:   #60A5FA;
+}
+
+/* --- 顶部阅读进度条 --- */
+.sp-progress {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  z-index: 30;
+  background: transparent;
+  pointer-events: none;
+}
+.sp-progress__bar {
+  height: 100%;
+  width: 0;
+  background: var(--md-accent-fg-color);
+  transition: width 0.1s linear;
+}
+
+/* --- 首页知识脉络图 --- */
+.sp-kmap {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.sp-kmap .sp-node {
+  stroke: transparent;
+  stroke-width: 0;
+  transition: stroke 0.15s ease, stroke-width 0.15s ease;
+}
+.sp-kmap a { text-decoration: none; }
+.sp-kmap a:hover .sp-node {
+  stroke: var(--md-default-fg-color);
+  stroke-width: 3;
+}
+.sp-kmap .sp-label {
+  font-size: 13px;
+  fill: var(--md-default-fg-color--light);
+}
+.sp-kmap-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 0.5px solid var(--md-default-fg-color--lightest);
+  font-size: 13px;
+  color: var(--md-default-fg-color--light);
+}
+.sp-kmap-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.sp-kmap-legend i {
+  width: 11px;
+  height: 11px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+/* --- 首页入口卡片 --- */
+.sp-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin: 1.5em 0;
+}
+.sp-card {
+  border: 0.5px solid var(--md-default-fg-color--lightest);
+  border-radius: 12px;
+  padding: 18px;
+  background: var(--md-default-bg-color);
+}
+.sp-card__icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.sp-card h3 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.sp-card p {
+  margin: 0 0 10px;
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light);
+  line-height: 1.6;
+}
+.sp-card__link {
+  color: var(--md-accent-fg-color);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* --- 首页 Hero 信息条 --- */
+.sp-hero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0.5em 0 1.5em;
+}
+.sp-hero span {
+  background: var(--md-primary-bg-color--dark);
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color);
+}
+
+/* --- 考点标签 .md-tag --- */
+.md-typeset .md-tag {
+  background: var(--sp-c-junc);
+  color: #fff;
+  border-radius: 4px;
+  padding: 1px 7px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/* --- 公式块：深色模式对比度 --- */
+[data-md-color-scheme="slate"] .md-typeset div.arithmatex {
+  color: #e6edf3;
+}

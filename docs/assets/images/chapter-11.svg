@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#185FA5" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+  <!-- 异质结：交替叠层（超晶格 / 量子阱） -->
+  <rect x="10" y="12" width="28" height="5" rx="1" fill="#185FA5" stroke="none"/>
+  <rect x="10" y="19" width="28" height="5" rx="1" fill="none"/>
+  <rect x="10" y="26" width="28" height="5" rx="1" fill="#185FA5" stroke="none"/>
+  <rect x="10" y="33" width="28" height="5" rx="1" fill="none"/>
+</svg>

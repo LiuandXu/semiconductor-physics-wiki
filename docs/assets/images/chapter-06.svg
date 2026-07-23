@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#0F6E56" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- 非平衡载流子：电子-空穴对（复合） -->
+  <circle cx="19" cy="21" r="5" fill="#0F6E56"/>
+  <circle cx="29" cy="27" r="5"/>
+  <path d="M19 21 Q24 24 29 27" stroke-dasharray="3 3" stroke-width="2"/>
+</svg>

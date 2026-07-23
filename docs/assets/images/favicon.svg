@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="#185FA5" aria-hidden="true">
+  <!-- 晶体外壳 -->
+  <path d="M24 5 L40 14.5 V33.5 L24 43 L8 33.5 V14.5 Z" fill="none" stroke="#185FA5" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- 价带 + 导带（能带图） -->
+  <path d="M12 35 L12 31 Q24 24 36 31 L36 35 Z"/>
+  <path d="M12 13 L12 17 Q24 24 36 17 L36 13 Z"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#854F0B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+  <!-- pn结：p区 | n区 + 内建电场 -->
+  <rect x="10" y="14" width="13" height="20" rx="2"/>
+  <rect x="25" y="14" width="13" height="20" rx="2"/>
+  <line x1="23.5" y1="14" x2="23.5" y2="34" stroke-dasharray="3 3" stroke-width="2"/>
+  <path d="M13 24 L33 24 M33 24 L28 21 M33 24 L28 27"/>
+  <circle cx="16" cy="24" r="2" fill="#854F0B" stroke="none"/>
+  <circle cx="32" cy="24" r="2" fill="#854F0B" stroke="none"/>
+</svg>
